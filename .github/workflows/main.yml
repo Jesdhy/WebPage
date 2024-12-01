@@ -33,7 +33,7 @@ jobs:
           username: ${{ secrets.EC2_USERNAME}}
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
-            docker stop webpage || true
-            docker rm webpage || true
-            docker pull ${{ secrets.DOCKER_USERNAME }}/webpage:${{ github.sha }}
-            docker run -d --name webpage -p 80:80 ${{ secrets.DOCKER_USERNAME }}/webpage:${{ github.sha }}
+            sudo docker stop webpage || true
+            sudo docker rm webpage || true
+            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/webpage:${{ github.sha }}
+            sudo docker run -d --name webpage -p 80:80 ${{ secrets.DOCKER_USERNAME }}/webpage:${{ github.sha }}
