@@ -61,9 +61,11 @@ git push
 ### Now, the application will be available on the EC2 server.🎉
 
 ## 🔗 Marketplace Links
-https://github.com/marketplace/actions/docker-login
-https://github.com/marketplace/actions/build-and-push-docker-images
-https://github.com/marketplace/actions/deploy-docker-to-aws-ec2
+- https://github.com/marketplace/actions/docker-login
+
+- https://github.com/marketplace/actions/build-and-push-docker-images
+
+- https://github.com/marketplace/actions/deploy-docker-to-aws-ec2
 
 ## 🤝 Contributing
 Thank you for your interest in contributing to this project! Here are some guidelines for doing so:
